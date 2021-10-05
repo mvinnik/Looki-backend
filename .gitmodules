@@ -1,0 +1,3 @@
+[submodule "src/main/protobuf/schema"]
+	path = src/main/protobuf/schema
+	url = git@github.com:mvinnik/Looki-proto-schema.git
