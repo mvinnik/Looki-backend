@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "sign_in.proto";
+
+option java_multiple_files = true;
+
+service Looki {
+    rpc SignIn(SignInRequest) returns (SignInResponse) {}
+    rpc GetUsers(GetUsersRequest) returns (stream GetUsersResponse) {}
+}
